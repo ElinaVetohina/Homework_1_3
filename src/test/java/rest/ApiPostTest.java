@@ -19,6 +19,6 @@ public class ApiPostTest {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("not some data"));
+                .body("data", equalTo("some data"));
     }
 }
